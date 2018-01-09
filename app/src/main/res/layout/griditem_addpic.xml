@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout android:orientation="vertical" android:layout_height="80dp" android:layout_width="80dp" android:layout_gravity="center">
+
+    <ImageView android:layout_height="fill_parent" android:layout_width="fill_parent" android:src="@drawable/default_image" android:scaleType="fitXY" android:id="@+id/imageView1" android:layout_marginRight="10dp" android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
+
+</LinearLayout>

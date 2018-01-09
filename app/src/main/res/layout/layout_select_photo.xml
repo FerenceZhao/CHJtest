@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/btn_camera"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_style_alert_dialog_button"
+            android:gravity="center"
+            android:padding="10dp"
+            android:shadowColor="#ffffff"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            android:shadowRadius="0.5"
+            android:text="拍照"
+            android:textColor="#0f0f0f"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/btn_gallery"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_style_alert_dialog_button"
+            android:gravity="center"
+            android:padding="10dp"
+            android:shadowColor="#ffffff"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            android:shadowRadius="0.5"
+            android:text="从相册中选择"
+            android:textColor="#0f0f0f"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/btn_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_style_alert_dialog_cancel"
+            android:gravity="center"
+            android:padding="10dp"
+            android:shadowColor="#000000"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            android:shadowRadius="0.5"
+            android:text="取消"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
